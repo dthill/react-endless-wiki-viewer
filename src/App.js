@@ -34,7 +34,7 @@ class App extends React.Component {
       randomArticlesError: false,
       randomArticlesScrollDistance: 0,
       openArticle: false,
-      articleIsLoading: true,
+      articleIsLoading: false,
     }
     this.iframeRef = React.createRef();
     this.randomArticlesRef = React.createRef();
@@ -81,8 +81,8 @@ class App extends React.Component {
         this.iframeRef.current.contentDocument.close();
         this.iframeRef.current.contentDocument.addEventListener("DOMContentLoaded", () =>{
           this.iframeRef.current.style.height = this.iframeRef.current.contentDocument.documentElement.scrollHeight.toString() + "px";
-          this.setState({articleIsLoading: false});
         });
+        this.setState({articleIsLoading: false});
       });
     });
   }
