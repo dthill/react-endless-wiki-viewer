@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "4cf17f7f71b36deef5e6",
-    "url": "/react-endless-wiki-viewer/static/js/main.eb2432c4.chunk.js"
+    "revision": "cd7243aeae9c70751ab3",
+    "url": "/react-endless-wiki-viewer/static/js/main.44cd7dcf.chunk.js"
   },
   {
     "revision": "ddced609a9bfc46b77fd",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/react-endless-wiki-viewer/static/js/2.825f385e.chunk.js"
   },
   {
-    "revision": "3019d7e713391b71b702cf4fa0a94ec0",
+    "revision": "711cff46dc76406215c9bb687bd66f7a",
     "url": "/react-endless-wiki-viewer/index.html"
   }
 ];

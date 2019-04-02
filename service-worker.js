@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-endless-wiki-viewer/precache-manifest.1627b4696d0bc98c8df688abdf9927f3.js"
+  "/react-endless-wiki-viewer/precache-manifest.b318858d371be8ccb6b9431e7d3baa42.js"
 );
 
 workbox.clientsClaim();
