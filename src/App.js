@@ -92,8 +92,16 @@ class App extends React.Component {
       this.randomArticlesRef.current.scrollTop = this.state.randomArticlesScrollDistance;
     });
   }
+
   handleReload(){
-    this.setState({randomArticles: []});
+    this.setState({
+      randomArticles: [],
+      randomArticlesLoading: false,
+      randomArticlesError: false,
+      randomArticlesScrollDistance: 0,
+      openArticle: false,
+      articleIsLoading: false,
+    });
     this.handleFetchRandomArticles();
   }
 
